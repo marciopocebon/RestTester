@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="318.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RestTester.Controller">
+  <columnConstraints>
+    <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="349.0" />
+      <ColumnConstraints hgrow="ALWAYS" maxWidth="100.0" minWidth="10.0" prefWidth="76.0" />
+      <ColumnConstraints hgrow="NEVER" maxWidth="95.0" minWidth="52.0" prefWidth="66.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="33.0" minHeight="33.0" prefHeight="0.0" valignment="CENTER" vgrow="NEVER" />
+    <RowConstraints maxHeight="1.7976931348623157E308" minHeight="44.0" prefHeight="280.0" vgrow="ALWAYS" />
+  </rowConstraints>
+   <children>
+      <Button mnemonicParsing="false" onAction="#makeRequest" text="Request" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="NEVER" />
+      <TextField fx:id="remoteUrl" onKeyPressed="#handleUrlFieldKeyPress" promptText="http://example.com:8080/some/endpoint" text="http://www.example.com" />
+      <TextArea fx:id="responseBody" prefHeight="263.0" prefWidth="365.0" promptText="HTTP response will be displayed here." GridPane.columnSpan="2147483647" GridPane.rowIndex="1" />
+      <ComboBox fx:id="httpMethodBox" prefWidth="150.0" GridPane.columnIndex="1" />
+   </children>
+</GridPane>
