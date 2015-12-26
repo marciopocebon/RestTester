@@ -2,8 +2,7 @@
 
 ## Description
 
-GUI program to test different HTTP request methods against any URL. Enter a URL and select a request method (e.g. GET)
-and view the response in plain text.
+Java GUI program to test HTTP requests.
 
 ## Installing
 
@@ -13,7 +12,7 @@ You must first compile the source. After compiling you can run the .class or you
 
 ```
 git clone https://github.com/NanoDano/RestTester
-cd RestTester
+cd RestTester/src
 javac RestTester/*.java
 jar cfm RestTester.jar META-INF/MANIFEST.MF RestTester
 ```
