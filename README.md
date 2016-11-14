@@ -4,6 +4,8 @@
 
 Rest Tester is a Java GUI program for testing HTTP requests.
 
+![Screenshot of main window](screenshots/RestTesterScreenshot.png)
+
 ## Features
 
 * Test HTTP requests with GET, PUT, POST, DELETE, PATCH
@@ -30,9 +32,14 @@ jar cfm RestTester.jar META-INF/MANIFEST.MF RestTester
 java -jar RestTester.jar
 ```
 
-## Download pre-compiled Jar
+Download the JAR
+----------------
+* [Rest Tester from DevDungeon.com](http://www.devdungeon.com/content/rest-tester)
 
-http://www.devdungeon.com/content/resttester
+
+Source Code
+-----------
+* [Rest Tester (GitHub.com)](https://www.github.com/DevDungeon/RestTester)
 
 ## Contact
 
