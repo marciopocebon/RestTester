@@ -20,7 +20,7 @@ You must first compile the source. After compiling you can run Main.class or you
 ### Compiling and Creating Jar
 
 ```
-git clone https://github.com/NanoDano/RestTester
+git clone https://github.com/DevDungeon/RestTester
 cd RestTester/src
 javac RestTester/*.java
 jar cfm RestTester.jar META-INF/MANIFEST.MF RestTester
