@@ -4,7 +4,7 @@
 
 Rest Tester is a Java GUI program for testing HTTP requests.
 
-![Screenshot of main window](screenshots/RestTesterScreenshot.png)
+![Screenshot of main window](screenshots/RestTesterMainWindow.png)
 
 ## Features
 
